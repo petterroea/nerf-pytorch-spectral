@@ -492,7 +492,7 @@ def config_parser():
                         help='downsampling factor to speed up rendering, set 4 or 8 for fast preview')
 
     # training options
-    parser.add_argument("--num_iters", type=int, default=100000, 
+    parser.add_argument("--num_iters", type=int, default=200000, 
                         help='Number of iterations in training')
     parser.add_argument("--precrop_iters", type=int, default=0,
                         help='number of steps to train on central crops')
